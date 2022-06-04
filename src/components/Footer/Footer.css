@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.Footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 100px;
+    color: #828282;
+    text-align: center;
+}
+
+.Footer a{
+    font-weight: 700;
+    padding-bottom: 24px;
+    text-decoration: underline;
+    text-decoration: none;
+    color: #828282;
+}
+
+.Footer a:hover{
+    color: deepskyblue;
+}

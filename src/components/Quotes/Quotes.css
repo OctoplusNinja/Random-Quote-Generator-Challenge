@@ -1,0 +1,14 @@
+.Quote{
+    width: 65%;
+    /* background-color: bisque; */
+    margin: 0 auto;
+    border-left: 8px solid #F7DF94;
+    padding-left: 1.5em;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 90px;
+}
+
+/* 9641619510 */

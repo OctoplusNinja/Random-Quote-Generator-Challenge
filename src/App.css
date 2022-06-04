@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.App {
+  /* margin-top: 32px; */
+  font-family: 'Raleway', sans-serif;
+}
+
+.random-btn{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: right;
+  /* margin-right: 70px; */
+  margin-bottom: 7em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.random-btn>span{
+  height: 80px;
+  display: block;
+  line-height: 80px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.refresh-icon{
+  /* display: inline-block; */
+  margin-left: 10px;
+}
+
+.random-btn>span:hover .icon{
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}

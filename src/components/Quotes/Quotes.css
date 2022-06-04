@@ -11,4 +11,10 @@
     margin-bottom: 90px;
 }
 
+@media only screen and (max-width: 600px) {
+    .Quote{
+        font-size: 24px;
+    }
+}
+
 /* 9641619510 */

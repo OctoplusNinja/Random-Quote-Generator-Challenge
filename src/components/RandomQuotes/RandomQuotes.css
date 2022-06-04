@@ -8,6 +8,21 @@
     color: #4F4F4F;
     transition: all 0.25s ease-out;
 }
+
+@media only screen and (max-width: 600px) {
+    .Random-Quote-Desc{
+        background-color: #333;
+        color: #F2F2F2;
+    }
+    .Random-Quote-Desc .arrow{
+        display: flex;
+    }
+    .Desc-Container{
+        padding-top: 20px !important;
+        padding-left: 30px;
+        padding-bottom: 20px !important;
+    }
+}
 /* .Random-Quote-Desc:hover .arrow{
     padding-right: 30px;
 } */
